@@ -1,0 +1,142 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+body{
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+  border: gold solid 2px;
+}
+
+#site_header{
+  background-color: #ff8523;
+  padding: 12px;
+}
+
+.main_navigation{
+  margin: 24px 0px;
+}
+
+nav a{
+  text-decoration: none;
+  border: 1px white solid;
+  color: white;
+  padding: 6px 42px;
+  border-radius: 4px;
+}
+
+
+#page_content{
+  margin: auto 24px;
+}
+
+h2{
+  color: #1fabe5;
+}
+
+p a{
+  color:#1fabe5;
+}
+
+h3{
+  color: #1fabe5;
+}
+
+li{
+  font-weight: bold;
+}
+
+section{
+  border-bottom: #dddddd 4px solid;
+  margin:20px auto;
+}
+
+thead{
+  background-color: #1fabe5;
+  color: white;
+}
+
+table{
+  border-collapse: collapse;
+  width:100%;
+  margin:0;
+}
+
+thead td{
+  border: black solid 1px;
+  padding: 16px;
+  max-width:100%;
+  white-space:nowrap;
+}
+tbody td{
+  border: solid #046c97 1px;
+  padding: 16px;
+  white-space:nowrap;
+
+}
+
+td img {
+  width:35%;
+  margin: 0;
+}
+
+table{
+  margin-bottom: 24px;
+}
+
+form{
+  background-color: #dddddd;
+  border-radius: 4px;
+  font-weight: bold;
+  padding-top: 1px;
+  margin-bottom: 24px;
+}
+
+.name{
+  background-color: #ff8523;
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  border-radius: 4px;
+}
+
+.name input{
+  padding: 10px 50px;
+}
+
+.city_container{
+  margin:36px 20px;
+}
+
+.whyBox{
+  margin:36px 20px;
+}
+
+.whyBox textarea{
+  width:100%;
+  line-height: 1.6;
+  border: 2px solid #1fabe5;
+}
+
+#submit_button{
+    text-decoration: none;
+    color: white;
+    padding: 16px 20px;
+    border-radius: 4px;
+    background-color: #1fabe5;
+    margin:20px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
